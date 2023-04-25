@@ -1,0 +1,20 @@
+.search{
+    height: 25px;
+    width: 100%;
+    max-width: 50%;
+    height: 100%;
+}
+
+.search input{
+    width: 100%;
+    border: none;
+    border-radius: 24px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+@media(max-width: 480px){
+    .search{
+        max-width: 85%;
+    }
+}

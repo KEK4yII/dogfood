@@ -1,0 +1,42 @@
+.header__wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.logo2{
+    display: none;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.user-info img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+header{
+    background-color: #FFE44D;
+}
+
+@media(max-width: 700px){
+    .user-info{
+        display:none;
+    }
+}
+
+@media(max-width: 480px){
+    .logo1{
+        display: none;
+    }
+
+    .logo2{
+        display: block;
+    }
+}
